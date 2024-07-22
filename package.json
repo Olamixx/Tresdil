@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "sql": "^0.78.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "tresdilportal",
+  "version": "1.0.0",
+  "description": "Security providers, we bring you the best services....",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olamixx/Tresdil.git"
+  },
+  "keywords": [
+    "security",
+    "signup",
+    "webapps"
+  ],
+  "author": "Olamixx",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Olamixx/Tresdil/issues"
+  },
+  "homepage": "https://github.com/Olamixx/Tresdil#readme"
+}

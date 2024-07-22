@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TresDils</title>
+ <script src="/js/jquery-2.1.0.min.js"></script>
+ <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #a {
+    display: flex;
+    align-items: center;
+}
+
+nav #a img {
+    margin-right: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #f4f4f4;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0.5em 0 1em;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+#services {
+    padding: 2em;
+    text-align: center;
+}
+
+#services h3 {
+    font-size: 1.75em;
+    margin-bottom: 1em;
+}
+
+.service {
+    margin: 1em 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ </style>
+</head>
+<body>
+<nav>
+<div id="a">
+<img src="/images/Tredils.jpg" alt="TresDils Logo" width="50px" height="50px">
+<h1>TresDils Group</h1>
+</div>
+<div id="b">
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/signup">Join</a></li>
+<li><a href="/login">Login</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="faqs.html">FAQs</a></li>
+</ul>
+</div>
+</nav>
+<header>
+<h2>Welcome to TresDils Group</h2>
+<p>Your trusted partner in security solutions.</p>
+        <a href="/signup" class="cta-button">Get Started</a>
+    </header>
+    <section id="services">
+        <h3>Our Services</h3>
+        <div class="service">
+            <h4>Home Security</h4>
+            <p>Advanced security systems to keep your home safe.</p>
+        </div>
+        <div class="service">
+            <h4>Business Security</h4>
+            <p>Comprehensive solutions for protecting your business.</p>
+        </div>
+        <div class="service">
+            <h4>Cyber Security</h4>
+            <p>Protect your data and online presence with our cyber security services.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 TresDils Group. All rights reserved.</p>
+    </footer>
+</body>
+</html>
