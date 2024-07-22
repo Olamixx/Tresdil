@@ -54,7 +54,7 @@ $(document).ready(function() {
 
     if (!username) {
         console.log("No username found in localStorage, redirecting to login.");
-      //  window.location.href = "/login";
+        window.location.href = "/login";
         return;
     }
 
@@ -74,7 +74,7 @@ $(document).ready(function() {
         },
         error: function(xhr, status, error) {
             console.error('An error occurred:', error);
-           // window.location.href = "/login";
+           window.location.href = "/login";
         }
     });
 });
